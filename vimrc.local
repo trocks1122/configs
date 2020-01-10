@@ -1,6 +1,6 @@
 syntax enable
 
-set termguicolors
+"set termguicolors
 set number
 
 set ignorecase
@@ -18,3 +18,7 @@ command! W w !sudo tee % > /dev/null
 
 set hlsearch
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
